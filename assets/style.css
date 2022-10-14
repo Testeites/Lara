@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body {
+    background-color: pink;
+    min-width: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: 'Loved by the King', cursive;
+    font-size: 14pt;
+    text-align: center;
+    color: rgb(255, 0, 119);
+    box-shadow: 1px 1px 1px 1px;
+}
+
+nav{
+    
+    background-color: rgb(233, 112, 132);
+    font-size: 15pt;
+    text-align: center;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+main {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a , main{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 30pt;
+    text-align: center;
+    background-color: rgb(226, 169, 204);
+}
+
+#galery{
+    width: 880px;
+    list-style: none;
+    display: flex;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+
+
+
+#video { 
+    position: relative;
+    height: 0px;
+    margin: 0px -20px 15px -20px;
+    padding-bottom: 59%;    
+}
+
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    font-size: 15pt;
+    text-align: center;
+    background-color: rgb(221, 139, 189);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#nos {
+    margin: 2px;
+    padding: 5px;
+    
+}
+
+#nos > div {   
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#nos > div > p {
+    font-size: 20pt;
+    color: black;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+}
