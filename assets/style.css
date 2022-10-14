@@ -79,6 +79,8 @@ img{
     left: 5%;
     width: 90%;
     height: 90%;
+    max-width: 500px;
+    max-height: 300px
 }
 
 footer {
